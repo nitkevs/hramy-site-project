@@ -1,0 +1,58 @@
+name: Тема для сайта Храмы Бердянска 1
+type: theme
+description: 'Подтема для Qatar 2022 Zymphonies Theme (qatar2022_zymphonies_theme). С дизайном как в 7ке'
+package: core
+base theme: qatar2022_zymphonies_theme
+# core: 8.x
+
+#libraries
+libraries:
+  - hramy_theme_yellow/bootstrap
+  - hramy_theme_yellow/flexslider
+  - hramy_theme_yellow/fontawesome
+  - hramy_theme_yellow/smartmenus
+  - hramy_theme_yellow/owl
+  - hramy_theme_yellow/global-components
+
+#Regions
+regions:
+
+  #Header
+  header: 'Header'
+  contact_email: 'Contact email'
+  search_bar: 'Search bar'
+  top_menu: 'Top menu'
+  primary_menu: 'Primary menu'
+
+  #Top widgets
+  topwidget_first: 'Top first widget'
+  topwidget_second: 'Top second widget'
+  topwidget_third: 'Top third widget'
+
+  #Global region
+  highlighted: 'Highlighted'
+  page_title: 'Page title'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+
+  #Services widgets
+  services: 'Services'
+
+  #Bottom widgets
+  bottom_first: 'Bottom first widget'
+  bottom_second: 'Bottom second widget'
+  bottom_third: 'Bottom third widget'
+  bottom_forth: 'Bottom forth widget'
+
+  #Footer widgets
+  footer_first: 'Footer first widget'
+  footer_second: 'Footer second widget'
+  footer_third: 'Footer third widget'
+
+  auto_hidden_block: 'Auto hidden blocks'
+# Information added by Drupal.org packaging script on 2018-12-23
+version: '8.x-1.0'
+core: '8.x'
+datestamp: 1545547684

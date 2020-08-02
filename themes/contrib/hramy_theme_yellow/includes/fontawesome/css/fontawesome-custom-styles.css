@@ -1,0 +1,16 @@
+/* ------- Внешние ссылки в контенте  ------- */
+
+a.external-link {
+  font-family: "Poppins",sans-serif;
+  font-weight: normal;
+}
+
+a.external-link:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: " \feff  \f35d";
+    display: inline-block;
+    transform: scale(0.75);
+}
+
+/* ------- Конец внешних ссылок в контенте ------- */

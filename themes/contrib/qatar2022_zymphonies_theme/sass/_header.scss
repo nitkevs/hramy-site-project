@@ -1,0 +1,143 @@
+/*Header*/
+
+.main-header {
+
+  	nav{	  
+	  border: 0;
+	  margin: 0;
+	  position: relative;
+	  min-height: auto;
+	  background: none;
+	  @include border-radius(0);
+	}
+
+	.region{
+	  position: relative;
+	  padding: 25px 0;
+	}
+
+	.block{
+	  margin: 0;
+	}
+
+	p, .block{
+		margin: 0;
+	}
+}
+
+.search-bar,
+.contact-email{
+	padding: 10px 0;
+}
+
+.region-contact-email{
+
+	.content,
+	h2.title{
+		display: inline-block;
+		font-size: 1em;
+    	font-weight: normal;
+	}
+	p,h2,.block{
+		margin: 0;
+	}
+}
+
+
+/*Region Header*/
+
+.site-branding{
+	margin: 0;
+}
+
+.region-header{
+	padding: 20px 0;
+}
+
+.region-header .brand{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5em;
+
+	a{
+		display: block;
+		text-transform: uppercase;
+		
+		img{
+			vertical-align: middle;
+		}
+	}
+
+	.site-branding__slogan{
+		font-size: .6em;
+		text-transform: uppercase;
+		vertical-align: top;
+	}
+}
+
+
+/*Search Form*/
+
+.search-block-form{
+	margin: 0 auto;
+}
+
+.region-search{
+	clear: both;
+	padding: 7px 0;
+}
+
+#search-block-form{
+	display: table;
+	width: 100%;
+
+	.form-item, 
+	.form-actions{
+		display: table-cell;
+		vertical-align: top;
+	}
+
+	.form-actions{
+		width: 35px;
+	}
+
+	input.form-submit{
+		background: image-url("search.png") no-repeat center $primaryColor;
+		font-size: 0;
+		width: 100%;
+		height: 38px;
+		vertical-align: top;
+
+		&:hover{
+			background-color: $primaryColorDark;
+		}
+	}
+
+	input{
+		width: 100%;
+		height: 38px;
+	}
+}
+
+
+/*Breadcrumb*/
+
+.breadcrumb{
+	font-size: .85em;
+	padding: 5px 0;
+	margin: 0;
+	display: inline-block;
+
+	ul,ol{
+		padding: 0;
+		margin: 0;
+
+			li{
+				display: inline-block;
+				padding: 0 10px;
+				&:last-child span{
+					display: none;
+			}
+		}
+	}
+}
